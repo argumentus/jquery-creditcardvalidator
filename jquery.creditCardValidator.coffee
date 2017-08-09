@@ -27,6 +27,11 @@ $ = jQuery
 $.fn.validateCreditCard = (callback, options) ->
     card_types = [
         {
+            name: 'mir'
+            range: '2200-2204'
+            valid_length: [ 16 ]
+        }
+        {
             name: 'amex'
             range: '34,37'
             valid_length: [ 15 ]
