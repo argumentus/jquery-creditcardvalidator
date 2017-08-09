@@ -1,0 +1,24 @@
+{
+  "name": "jquery-creditcardvalidator-intervale",
+  "version": "1.2.1",
+  "description": "jQuery Credit Card Validator detects and validates credit card numbers. It’ll tell you the detected credit card type and whether the number length and Luhn checksum are valid for the type of card.",
+  "main": "jquery.creditCardValidator.js",
+  "directories": {
+    "example": "example",
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "https://github.com/argumentus/jquery-creditcardvalidator",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/argumentus/jquery-creditcardvalidator/issues"
+  },
+  "homepage": "https://github.com/argumentus/jquery-creditcardvalidator#readme",
+  "devDependencies": {
+    "grunt": "~0.4.5",
+    "grunt-contrib-coffee": "^1.0.0",
+    "grunt-contrib-watch": "^1.0.0"
+  }
+}
