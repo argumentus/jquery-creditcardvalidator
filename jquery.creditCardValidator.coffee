@@ -51,11 +51,11 @@ $.fn.validateCreditCard = (callback, options) ->
             range: '3528-3589'
             valid_length: [ 16 ]
         }
-        {
-            name: 'laser'
-            range: '6304, 6706, 6709, 6771'
-            valid_length: [ 16..19 ]
-        }
+#        {
+#            name: 'laser'
+#            range: '6304, 6706, 6709, 6771'
+#            valid_length: [ 16..19 ]
+#        }
         {
             name: 'visa_electron'
             range: '4026, 417500, 4508, 4844, 4913, 4917'
@@ -71,11 +71,11 @@ $.fn.validateCreditCard = (callback, options) ->
             range: '51-55,2221-2720'
             valid_length: [ 16 ]
         }
-        {
-            name: 'discover'
-            range: '6011, 622126-622925, 644-649, 65'
-            valid_length: [ 16 ]
-        }
+#        {
+#            name: 'discover'
+#            range: '6011, 622126-622925, 644-649, 65'
+#            valid_length: [ 16 ]
+#        }
         {
             name: 'dankort'
             range: '5019'
